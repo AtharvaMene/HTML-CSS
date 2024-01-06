@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> day 8</title>
 
-    </head>
+<head>
+    <title>DAy 8 Resume</title>
+    <style>
+        * {
+            margin: 2px;
+            
+        }
 
-    <body>
+        #fullbody { 
+            border: 3px solid black;
+         height: 150px;
+        width: 150px;
+          }
 
-        <div style="border: 1px solid red;">
-<h1>Hello there</h1>
-        </div>
-    </body>
+        #background {
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+
+        #intro {
+            border: 2px solid rgb(13, 12, 12);
+            width: 35%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: black
+        }
+
+        #projects {
+            border: 2px solid rgb(13, 12, 12);
+            width: 35%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: black
+        }
+    </style>
+
+</head>
+
+<body id="background">
+    <div id="image">
+        <img src="Profile picture.jpg" height="150px" width="150px" alt="This is a Image " style="border-radius: 50%;">
+    </div>
+    <div id="intro">
+        <h1>Personal Details</h1>
+        <h2>Atharva Mene</h2>
+        <h2>21 years</h2>
+        <h2>Tech Stacks:Java Phthon C C++</h2>
+        <a href="">Github-atharvamene025</a>
+    </div>
+    <div id="projects">
+        <h1>Projects Made</h1>
+        <h2>Netflix Clone</h2>
+        <ul style="font-size: larger; font-weight: bolder;">Functionalities</ul>
+        <li>Dynamic Website</li>
+        <li>Dowload Videos</li>
+        <li>Stream Videos</li>
+    </div>
+
+    <div id="projects">
+        <h2>Vlc Media Player</h2>
+        <ul>Functionalities</ul>
+        <li>Play Local Disk Videos</li>
+    </div>
+    <div id="projects">
+        <h2>Full Stack Developer</h2>
+        <h2>MERN Stack Developer</h2>
+    </div>
+    <div id="projects">
+        <h2>Certifications</h2>
+        <ol>
+            <li>Full Stack development</li>
+            <li>HackerRank</li>
+            <li>MERN Stack Development</li>
+        </ol>
+    </div>
+    <form id="projects">
+        <fieldset>
+            <legend>Contact Me</legend>
+          
+        </fieldset>
+          <label>Email</label>
+            <Input type="text" placeholder="Enter your email address"></Input>
+            <br>
+            <Label>Ask Me</Label>
+            <input type="Text" placeholder="Any Queries or Questions">
+    </form>
 </html>
