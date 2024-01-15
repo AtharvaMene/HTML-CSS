@@ -1,3 +1,14 @@
-div{
-    color: red;
-}
+*{
+    background-repeat: no-repeat; background-image: url(https://static.vecteezy.com/system/resources/previews/002/100/684/original/video-player-neon-interface-isolated-illustration-video-player-glowing-sign-isolated-on-brick-wall-background-vector.jpg);
+ }
+ .v1{
+     border:2px solid aliceblue;
+     padding: 20px;
+     color: aliceblue;
+
+ }
+ .a1{
+     font-family:'Times New Roman', Times, serif;
+     font-size: 20px;
+     
+ }
