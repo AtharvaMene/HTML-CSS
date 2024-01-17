@@ -1,49 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 14</title>
-<h1 style="text-align: center;">Day 14 Assignment</h1>
+    <h1 style="text-align: center;">Day 14 Assignment</h1>
     <style>
-            *{ background: rgb(194, 236, 11);
-            background: radial-gradient(circle, rgb(227, 170, 227) 0%, rgb(213, 175, 51) 100%);
-        }
-        body {
-            font-family:cursive;
+        * {
+            background: rgb(245, 161, 197);
+            background: radial-gradient(circle, rgb(216, 207, 229) 0%, rgb(235, 95, 95) 100%);
+
         }
 
-        .b1{
+        body {
+            font-family: cursive;
+        }
+
+        .b1 {
             border: 1px solid black;
             margin: 5px;
             font-size: larger;
-    
+
         }
     </style>
 </head>
+
 <body>
     <div style="border: 2px solid whitesmoke;">
         <h2>Text Decoration Styling</h2>
-    <div class="b1" style="text-decoration-line: line-through;">
-        Text decoration Line
+        <div class="b1" style="text-decoration-line: line-through;">
+            Text decoration Line
+        </div>
+        <div class="b1" style="text-decoration-line:underline ;">
+            This is an underlined Text Decoration Format
+        </div>
+        <div class="b1" style="text-decoration-line:overline;">
+            This is an Overline Text Decoration Format
+        </div>
+        <div class="b1" style="text-decoration-line:overline underline;">
+            This is An Underline + Overline Text Decoration Format
+        </div>
     </div>
-    <div class="b1" style="text-decoration-line:underline ;">
-        This is an underlined Text Decoration Format
+    <br />
+    <div style="border: 2px solid black; text-align: center; padding: 20px;">
+        <h2>Text Decoration Color Styling</h2>
+        <div
+            style="text-decoration-line: underline overline; text-decoration-color:rgb(230, 222, 6); text-decoration-style: dashed;">
+            This is An Text Decorated Line with Different Line Color</div>
+        <div style="text-decoration-thickness: 3px; text-decoration-line: underline;">This is An Text Decorated Line
+            with Different Line Thickness</div>
     </div>
-    <div class="b1" style="text-decoration-line:overline;">
-        This is an Overline Text Decoration Format
+    <div style="text-align: center; border: 2px solid black; margin: 40px;">
+        <p style="text-transform: capitalize;">this line is auto capitalize line</p>
+        <p style="text-transform: uppercase;">This Line has Uppercase letters</p>
+        <p style="text-transform: lowercase;">This Line Has Lowercase Letters</p>
+        <p style="width: calc(100%-20px);border: 2px solid yellow;">Testing text Transformation</p>
     </div>
-    <div class="b1" style="text-decoration-line:overline underline;">
-        This is An Underline + Overline Text Decoration Format
-    </div>
-</div>  
-<br/>
-<div style="border: 2px solid black; text-align: center; padding: 20px;">
-    <h2>Text Decoration Color Styling</h2>
-<div style="text-decoration-line: underline overline; text-decoration-color:rgb(48, 5, 240); text-decoration-style: dashed;">This is An Text Decorated Line with Different Line Color</div>
-<div style="text-decoration-thickness: 3px; text-decoration-line: underline;">This is An Text Decorated Line with Different Line Thickness</div>
-</div>
+    <div style="text-align: center; border: 2px solid black;">
+        <h2>Testing Text Indention</h2>
+        <p style="text-indent: 100px;word-spacing: 4px;">Indent TestingIndent TestingIndent TestingIndent TestingIndent Testing
+            Indent TestingIndent TestingIndent TestingIndent Testing
+            Indent TestingIndent TestingIndent TestingIndent Testing
+        </p>
+        <p style="word-spacing: 30px;">Testing word SpacingTesting word SpacingTesting word SpacingTesting word Spacing
+            Testing word SpacingTesting word SpacingTesting word SpacingTesting word Spacing</p>
 
-<p>Testing Te</p>
+            <p style="white-space:pre;">Testing White  SpaceTesting White  SpaceTesting White  SpaceTesting White  Space
+                Testing White  SpaceTesting White  SpaceTesting White  SpaceTesting White  Space
+            </p>
+    </div>
+
+    <div>
+        <p style="text-shadow: 10px 10px;">Testing Text Shadows</p>
+        
+    <p style="font-weight: 100;">Testing text </p>
+    <p style="font-weight: 900;">Testing text </p>
+    <p style="font-weight: bolder;">Testing text </p>
+    <p style="font-weight: normal;">Testing text </p> 
+
+
+    <p style="font-variant :small-caps  ;">Testing Text </p>
+    </div>
 </body>
+
 </html>
