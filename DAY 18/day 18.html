@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 style="text-align: center;">Day 18 Assignment</h1>
+    <style>
+        #parentdiv{
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-size: 20px;    
+        }
+
+      #parentdiv>div{
+          width: 20%;
+          height: 200px;
+          border: 1px solid black;
+      }
+
+      .mychilddiv{
+        border: 2px solid green;
+        margin: 15px;
+      }
+@media screen and (min-width: 651px) {
+
+    #parentdiv>div{
+        width: 100% ;
+    }
+    #parentdiv{
+
+        flex-direction: column;
+    
+    }
+
+    .mychilddiv{
+        border: 2px solid red;
+    }
+}
+     
+    </style>
+</head>
+<body>
+    <div id="parentdiv">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4
+        <div class="mychilddiv">a</div>
+        <div class="mychilddiv">b</div>
+        <div class="mychilddiv">c</div>
+        <div class="mychilddiv">d</div>
+    </div>
+    </div>
+</body>
+</html>
