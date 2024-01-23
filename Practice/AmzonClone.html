@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amzon Clonet</title>
+    <link rel="stylesheet" href="../Practice/AmzonClone.css">
+    <script src="https://kit.fontawesome.com/bc926d731f.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* color: aliceblue; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #navbar {
+            /* border: 2px solid black; */
+            width: 100%;
+            height: 57px;
+            position: fixed;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        #logoid {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        #logo {
+            width: 10%;
+            margin: 12px;
+        }
+
+        #delivery {
+            /* border: 1px solid green; */
+            width: 10%;
+            text-align: center;
+            display: flex;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        #searchbox {
+            width: 60%;
+            display: flex;
+            margin: 14px;
+            background-color: rgb(254, 189, 105);
+            height: 30px;
+            border-radius: 5px;
+
+
+        }
+
+        #language {
+            width: 5%;
+            margin: 18px;
+        }
+
+        #profile {
+            width: 10%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #searchicon {
+            padding: 7px;
+        }
+
+        #orders {
+            width: 5%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #cart {
+            width: 5%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #textbox {
+            background-color: white;
+            font-size: large;
+            border: none;
+            outline: none;
+            background-color: #f5f5f6;
+
+        }
+
+        #itemid {
+            background-color: rgb(230, 230, 230);
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        #languageid {
+            border: none;
+            outline: none;
+        }
+
+        #orders:hover {
+            border: 1px solid black;
+            /* padding: 5px; */
+            border-radius: 2px;
+
+        }
+
+        #cart:hover {
+            border: 1px solid black;
+            /* padding: 5px; */
+            border-radius: 2px;
+
+        }
+
+        #profile:hover {
+            border: 1px solid black;
+            /* padding: 5px; */
+            border-radius: 2px;
+
+        }
+
+        #searchbox:hover {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 2px;
+
+        }
+
+        #delivery:hover {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 2px;
+
+        }
+
+        #logoid:hover {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 2px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img id="logoid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
+                alt="Amazon Logo">
+        </div>
+        <div id="delivery">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Deliver to address</p>
+        </div>
+        <div id="searchbox">
+            <select name="all items" id="itemid">
+                <option value="">All</option>
+                <option value="">All Categories</option>
+                <option value="">Alexa Skills</option>
+                <option value="">Amazon Fashion</option>
+                <option value="">Amazon Devices</option>
+                <option value="">Amazon Pharmacy</option>
+                <option value="">Appliances</option>
+                <option value="">Apps & Games</option>
+                <option value="">Audible and Audiobooks</option>
+                <option value="">Baby</option>
+                <option value="">Beauty</option>
+                <option value="">Books</option>
+                <option value="">Car & Motorbikes</option>
+                <option value="">Clothing & Accesories</option>
+
+            </select>
+            <input id="textbox" placeholder="Seach Amazon.in" type="text" style="height: 30px; width: 100%;">
+            <i id="searchicon" class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+        <div id="language">
+            <select name="language" id="languageid">
+                <option value="HI">EN</option>
+                <option value="TA">HI</option>
+                <option value="TE">TN</option>
+                <option value="KE">TE</option>
+            </select>
+        </div>
+        <div id="profile">
+            <i class="fa-regular fa-user"></i>
+            <p>Account And List</p>
+        </div>
+        <div id="orders">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>Orders</p>
+        </div>
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Cart</p>
+        </div>
+    </div>
+
+    <div id="navbar2">
+
+
+    </div>
+</body>
+
+</html>
