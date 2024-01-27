@@ -30,6 +30,7 @@
         #logo {
             width: 8%;
             height: 100%;
+            background-size: cover;
         }
 
         #nav1 {
@@ -49,7 +50,8 @@
             display: flex;
             width: 35%;
             margin: 10px;
-            /* border-radius: 3%; */
+            border-radius: 5px;
+           
 
         }
 
@@ -87,37 +89,33 @@
             margin-left: 190px;
         }
 
-        @media screen and (max-width: 650px) {
-
-            #nav1{
-                font-size: 9px;
-            }
-
-            #nav2>div {
-            display: none;
-             }
-            
-
-           
-
-        @media screen and (min-width: 651px) {
-           
-          #nav2>div{
-            display: none;
-          }       
-          #barsimg>div{
-            display: none;
-          }
-        }
-        
-        }
-
         #nav1:hover{
             background-color: black;
             transition: background-color 0.8s;
             color: white;
         }
-        
+
+        @media (max-width:650px)
+        {
+            #nav2{
+                display: none;
+            }
+        }
+
+        @media (min-width:651px)
+        {
+            #barsimg{
+                display: none;
+            }
+        }
+        a{
+            text-decoration: none;
+            color:red;
+        }
+        a:hover{
+            color: lightskyblue;
+
+        }
     </style>
 </head>
 
@@ -127,12 +125,12 @@
             <img class="h-w-100" src="https://mumbaimirror.indiatimes.com/photo/80601325.cms" alt="Home Logo">
         </div>
         <div id="nav1">
-            <a>MEN</a>
-            <a>WOMEN</a>
-            <a>KIDS</a>
-            <a>HOME & LIVING</a>
-            <a>BEAUTY</a>
-            <a>STUDIO</a>
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">HOME & LIVING</a>
+            <a href="#">BEAUTY</a>
+            <a href="#">STUDIO</a>
 
         </div>
         <div id="searchbox">
@@ -164,6 +162,8 @@
             src="https://img.freepik.com/free-vector/red-sale-price-tag-style-banner-design-template_1017-27328.jpg"
             alt="Sale Image">
 
+
+            <!-- <input type="button"> -->
 
     </div>
 </body>

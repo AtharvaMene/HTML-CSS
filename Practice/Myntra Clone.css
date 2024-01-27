@@ -1,0 +1,16 @@
+#navbar{
+    height: 80px;
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    height: 80px;
+    width: 150px;
+    background-size: cover;
+    left: 0;
+}
