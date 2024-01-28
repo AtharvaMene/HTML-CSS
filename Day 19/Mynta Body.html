@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <script src="https://kit.fontawesome.com/bc926d731f.js" crossorigin="anonymous"></script>
+
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            color: #3e4152;
+
+        }
+
+        #navbar {
+
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+height: 70px;
+text-align: center;
+}
+
+#logo {
+width: 8%;
+height: 100%;
+}
+
+#nav1 {
+width: 35%;
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+font-weight: bold;
+padding-top: 25px;
+color: #3e4152;
+font-size: 14px;
+}
+
+#searchbox {
+background-color: #f5f5f6;
+padding: 2px;
+display: flex;
+width: 35%;
+margin: 10px;
+/* border-radius: 3%; */
+
+}
+
+#nav2 {
+width: 15%;
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+font-weight: bold;
+padding-top: 22px;
+color: #3e4152;
+font-size: 14px;
+}
+
+.h-w-100 {
+height: 100%;
+width: 100%;
+}
+
+.searchimage {
+padding: 11px;
+}
+
+#itempage {
+background-color: blue;
+}
+
+@media screen and(max-width:650px) {
+
+
+}
+
+        .b1 {
+            border: 1px solid rgb(228, 228, 228);
+        }
+
+        .df {
+            display: flex;
+        }
+
+        .jc-between {
+            justify-content: space-between;
+        }
+
+        .pt-20 {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        .p-58510 {
+            padding: 5px 8px 5px 10px;
+        }
+
+        .p-sidepanel {
+            padding: 0px 0px 15px 20px;
+        }
+
+        #navbarpro {
+            height: 140px;
+            padding-bottom: 6px;
+            margin-top: 60px;
+        }
+
+        #filters {
+            width: 15%;
+        }
+
+        #bundles {
+            width: 55%;
+        }
+
+        #sortby {
+            width: 15%;
+        }
+
+        #filterbox {
+            padding: 20px;
+        }
+
+        #sidepanel {
+            width: 18%;
+
+        }
+
+        #products {
+            width: 78%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product-img {
+            height: 280px;
+            width: 210px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
+
+        .b-left {
+            border-right: 1px solid rgb(228, 228, 228);
+            border-collapse: collapse;
+        }
+
+        .b-top {
+            border-top: 1px solid rgb(228, 228, 228);
+            border-collapse: collapse;
+        }
+
+        .b-nav {
+            border-bottom: 1px solid rgb(228, 228, 228);
+            border-collapse: collapse;
+        }
+
+        h4{
+            font-size: 12px;
+            font-weight: lighter;
+            
+        }
+        
+        #products>div>span{
+            font-size: 12px;
+        }
+        
+        .p-2001525{
+            padding: 20px 0px 15px 25px;
+        }
+        .t14{
+            font-size: 14px;
+        }
+    </Style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <img class="h-w-100" src="https://mumbaimirror.indiatimes.com/photo/80601325.cms" alt="Home Logo">
+        </div>
+        <div id="nav1">
+            <a>MEN</a>
+            <a>WOMEN</a>
+            <a>KIDS</a>
+            <a>HOME & LIVING</a>
+            <a>BEAUTY</a>
+            <a>STUDIO</a>
+
+        </div>
+        <div id="searchbox">
+            <div style="margin:none" class="searchimage"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <input style=" background-color:#f5f5f6;  border: none; outline: none;" type="text" size="60"
+                placeholder="Search for Products,Brands and More">
+        </div>
+
+        <div id="nav2">
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <p>Profile</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <p>Wishlist</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+        
+        </div>
+
+
+        </div>
+   </div> 
+
+   
+    
+
+    <div id="navbarpro" class="b-nav">
+        <p class="pt-20">Home /Clothing /<b>Men T-Shirts</b></p>
+        <p class="pt-20"><b>Men T-Shirts </b>- 127323 items</p>
+
+        <div id="filterbox" class="df jc-between">
+            <div id="filters" class=><b>Filters</b></div>
+            <div id="bundles" class=" df">
+                <div class="p-58510">
+                    <p>Bundles <i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div class="p-58510">Country Of Origin <i class="fa-solid fa-angle-down"></i></div>
+                <div class="p-58510">Size <i class="fa-solid fa-angle-down"></i></div>
+            </div>
+            <div id="sortby" class="b1 p-58510">Sort by:<b>Recommended</b> <i class="fa-solid fa-angle-down"></i> </div>
+        </div>
+        <div class="df jc-between">
+            <div id="sidepanel" class="p-sidepanel b-left ">
+                <div class="t14">
+                    <div>
+                        <p><b>Categories</b></p>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>T-Shirts</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox"><span>Long T-Shirts</span>
+                    </div>
+                    <div class="b-top">
+                        <p><b>Brand</b></p>
+                        <div>
+                            <input type="checkbox"><span>Roadsters</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>Tommy Hilfiger</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>Us Polo</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>h&M</span>
+                        </div>
+                    </div>
+                    <div class="b-top">
+                        <p><b>Price</b></p>
+                        <div>
+                            <input type="checkbox"><span>Rs 155- Rs 300</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>Rs 400- Rs 900</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>Rs 1000- Rs 1999</span>
+                        </div>
+                        <div>
+                            <input type="checkbox"><span>Rs 2000- Rs 3000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-top">
+                    <p><b>Color</b></p>
+                    <div>
+                        <input type="checkbox"><span>Roadsters</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>HRX</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>Puma</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>Addidas</span>
+                    </div>
+                </div>
+                <div class="b-top">
+                    <p><b>Discount Range</b></p>
+                    <div>
+                        <input type="checkbox"><span>10% Off</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>30% Off</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>50% Off</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>60% Off</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="products" class=" df jc-between">
+                <div><img class=" product-img" src="Media\florencia-simonini-PDZAMYvduVk-unsplash.jpg" alt="thisrt1">
+                    <h3>Roadster</h3>
+                    <h4>Printed Cotton Shirt</h4>
+                    <span><b>Rs.399</b></span> <span style="text-decoration: line-through;">Rs. 899 </span>
+                </div>
+                <div><img class=" product-img" src="Media\josue-escoto-crsQ7CNIovw-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>STROMBORM</h3>
+                    <h4>Printed Acrylic T-Shirt</h4>
+                    <span><b>Rs.499</b></span> <span style="text-decoration: line-through;">Rs. 799 </span>
+                </div>
+                <div><img class="product-img" src="Media\toa-heftiba-9PVUNBgqVRo-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>BULLMER</h3>
+                    <h4>Oversized T-Shirt</h4>
+                    <span><b>Rs.599</b></span> <span style="text-decoration: line-through;">Rs. 699 </span>
+                </div>
+                <div><img class="product-img" src="Media\sahil-moosa-m1MRYp556Ew-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>HERE&NOW</h3>
+                    <h4>Pure Cotton Shirt</h4>
+                    <span><b>Rs.699</b></span> <span style="text-decoration: line-through;">Rs. 1099 </span>
+                </div>
+                <div><img class=" product-img" src="Media\pro-church-media-A77QfVfNA8Y-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>Roadster</h3>
+                    <h4>Typography Cotton Shirt</h4>
+                    <span><b>Rs.799</b></span> <span style="text-decoration: line-through;">Rs. 1299 </span>
+                </div>
+                <div><img class="product-img" src="Media\josue-escoto-crsQ7CNIovw-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>H&M</h3>
+                    <h4>Sleeves Shirt</h4>
+                    <span><b>Rs.899</b></span> <span style="text-decoration: line-through;">Rs. 1899 </span>
+                </div>
+                <div><img class="product-img" src="Media\toa-heftiba-9PVUNBgqVRo-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>BEWAKOOF</h3>
+                    <h4>Printed Cotton Shirt</h4>
+                    <span><b>Rs.399</b></span> <span style="text-decoration: line-through;">Rs. 2299 </span>
+                </div>
+                <div><img class="product-img" src="Media\faith-yarn-Wr0TpKqf26s-unsplash.jpg" alt="This is t-shirt product">
+
+                    <h3>PUMA</h3>
+                    <h4>Printed Cotton Shirt</h4>
+                    <span><b>Rs.499</b></span> <span style="text-decoration: line-through;">Rs. 1599 </span>
+                </div>
+                <div><img class=" product-img" src="Media\jusdevoyage-nvZ4NubOIZE-unsplash (1).jpg" alt="This is t-shirt product">
+                <h3>HUETRAP</h3>
+                    <h4>Printed Cotton Shirt</h4>
+                    <span><b>Rs.599</b></span> <span style="text-decoration: line-through;">Rs. 1499 </span>
+                </div>
+                <div><img class=" product-img" src="Media\pro-church-media-A77QfVfNA8Y-unsplash.jpg" alt="This is t-shirt product">
+                    <h3>Roadster</h3>
+                    <h4>Printed Cotton Shirt</h4>
+                    <span><b>Rs.699</b></span> <span style="text-decoration: line-through;">Rs. 899 </span>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
