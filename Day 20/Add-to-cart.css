@@ -1,0 +1,80 @@
+#navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.b1 {
+    border: 2px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 10%;
+    padding-left: 60px;
+}
+
+#logo2 {
+    width: 10%
+}
+
+#bag-address {
+    width: 70%;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#Content {
+    display: flex;
+    justify-content:center;
+}
+
+#left-section {
+    height: 400px;
+    width: 45%;
+
+}
+#button-click-here{
+    height: 34px;
+    width: 124px;
+}
+
+#right-section {
+    height: 400px;
+    width:30%;
+}
+#check-delivery{
+    border: 1px solid black;
+    margin: 10px;
+}
+#offers{
+    font-size: 13px;
+    margin: 10px;
+    border: 1px solid black;
+}
+#selected-items{
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+}
+
+.h-w-100 {
+    height: 60px;
+    width: 80px;
+
+}
+.h-w-200{
+    height: 80px;
+    width: 150px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: white;
+}
