@@ -4,15 +4,15 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
 }
 
-.b1 {
-    border: 2px solid black;
-}
 
 * {
     margin: 0;
     padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
 #logo {
@@ -36,7 +36,7 @@
 }
 
 #left-section {
-    height: 400px;
+    /* height: 400px; */
     width: 45%;
 
 }
@@ -46,24 +46,122 @@
 }
 
 #right-section {
-    height: 400px;
+    /* height: 400px; */
     width:30%;
+    /* margin: 10px; */
+    border-left: 1px solid grey;
 }
 #check-delivery{
+    /* border: 1px solid black; */
+    margin: 10px;
+    height: 30px;
+    padding: 25px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#coupouns-header{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#apply-coupoun{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#cart{
+    /* margin: 10px; */
+}
+
+#place-order{
+    text-align: center;
     border: 1px solid black;
     margin: 10px;
+}
+#order-button{
+    height: 40px;
+    background-color: #ff3f6c;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+#donate{
+    margin: 10px 10px 16px 10px;
+}
+
+#donate-buttons{
+    display: flex;
+}
+
+#bag-offer{
+    margin: 10px;
+    height: 35px;
+    background-color: rgb(255,246,244);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.f12{
+    font-size: 12px;
+}
+.fc-red{
+    color: #ff3f6c;
+}
+
+.p5{
+    padding: 5px;
+}
+.bc-red{
+    border:1px solid #ff3f6c;
+}
+.price-button{
+    border: 1px solid grey;
+    width: 15%;
+    margin: 10px;
+    border-radius:15px;
+    text-align: center;
+    font-weight: bold;
+}
+.prc-2{
+    font-size: 14px;
+    color: #94969F;
+    text-decoration: line-through;
+    font-weight: bold;
 }
 #offers{
     font-size: 13px;
     margin: 10px;
-    border: 1px solid black;
 }
 #selected-items{
-    border: 1px solid black;
     display:flex;
     justify-content: space-between;
+    margin: 10px;
 }
+#price-details{
 
+    justify-content: space-between;
+}
+.f-13{
+    font-size: 13px;
+    color: #28263f;
+}
+.f-14{
+    font-size: 14px;
+    font-weight: light;
+    color: #28263f;
+}
+.prod-details{
+    padding-top:10px;
+}
+.df-jc{
+    display: flex;
+    justify-content: space-between;
+}
 .h-w-100 {
     height: 60px;
     width: 80px;
@@ -73,8 +171,29 @@
     height: 80px;
     width: 150px;
 }
+
+.b1-g{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.img-hw{
+    height: 150px;
+    width: 110px;
+    margin: 10px;
+    }
+
+.products{
+    margin: 10px;
+    display: flex;
+
+}
 button{
     border: none;
     outline: none;
     background-color: white;
+    /* border: 1px solid #ff3f6c;  */
+}
+.m-10{
+    margin: 10px;
 }

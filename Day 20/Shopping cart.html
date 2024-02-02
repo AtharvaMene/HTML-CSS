@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add to Bag Page</title>
     <link rel="stylesheet" href="Add-to-cart.css">
+    <script src="https://kit.fontawesome.com/bc926d731f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
         </div>
         <div id="bag-address" class="">
-            <span>BAG</span> <span>.........</span> <span>ADDRESS</span> <span>.........</span><span>Payment</span>
+            <span style="color: lightseagreen; text-decoration: underline;">BAG</span> <span>.........</span> <span>ADDRESS</span> <span>.........</span><span>Payment</span>
         </div>
         <div id="logo2" class="">
             <img class="h-w-200"
@@ -23,29 +24,115 @@
         </div>
     </div>
 
-    <div id="Content">
-        <div id="left-section" class="b1">
-            <div id="check-delivery" class="">
-                <span>Check delivery Time & Services</span> <button>Enter Pin Code</button>
+    <div id="Content" class="">
+        <div id="left-section" class="">
+            <div id="check-delivery" class="b1-g">
+                <div>
+                    <span>Check delivery Time & Services</span>
+                </div>
+                <div> <button class="bc-red fc-red p5"><b> Enter Pin Code</b></button> </div>
             </div>
-            <div id="offers">
+            <div id="offers" class="b1-g p5">
                 <h4>Available Offers</h4>
                 <p>10% instant Discount on IDFC Bank Credit/Debit Cards on a min spend of 2500 TCA</p>
             </div>
-            <div id="selected-items">
+            <div id="selected-items" class="m-10">
                 <div style="width: 70%;">
-                    <span>1/2 ITEMS SELECTED</span>
+                    <input type="checkbox"><b> 1/2 Items Selected</b>   
                 </div>
 
                 <div>
-                    <button>Remove</button>
+                    <button style="border-right: 1px solid grey; padding-right:15px;"><b>Remove</b></button>
                 </div>
-                <div style="width: 15%;">
-                    <button>Move To wishlist</button>
+                <div style="width: 20%;">
+                    <button style="padding-left: 10px;"><b>Move To wishlist</b> </button>
+                </div>
+            </div>
+
+            <div id="cart" class="">
+                <div class="products b1-g"> 
+                    <img class="img-hw"
+                        src="https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9kZWxzfGVufDB8fDB8fHww"
+                        alt="product 1">
+
+                    <div class="prod-details">
+                        <span class="f-13"><b>Rigo</b> </span>
+                        <p class="f-14">Rigo Black Leather Jacket </p>
+                        <span>Size:S</span> <span>Qty:1</span> <br>
+                        <span><b>674</b></span> <span class="prc-2">1499</span> <span class="fc-red">55% OFF</span>
+                        <p>Sold by international Rigo</p>
+                        <p><b>14 days</b> return Available</p>
+
+
+                    </div>
+                </div>
+                <div class="products b1-g">
+                    <img class="img-hw"
+                        src="https://images.unsplash.com/photo-1503341733017-1901578f9f1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHRzaGlydHMlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D"
+                        alt="product 2">
+
+                    <div class="prod-details">
+                        <span>Size:S</span> <span>Qty:1</span> <br>
+                        <p class="f-14">BULLMER Oversized Round neck T-shirt </p>
+                        <span>Size:S</span> <span>Qty:1</span><br>
+                        <span><b>349</b></span> <span class="prc-2">1499</span> <span class="fc-red">75% OFF</span>
+                        <p>Sold by BULLMER</p>
+                        <p><b>14 days</b> return Available</p>
+
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="right-section" class="b1">Rigth</div>
+        <div id="right-section" class="">
+            <div id="coupouns-header"> <b>Offers and Coupouns</b> </div>
+            <div id="bag-offer">
+                <p> <i class="fa-solid fa-swatchbook" style="color: #ff3d3d;"></i> 1 OFFER ON YOUR BAG </p>
+            </div>
+            <div id="apply-coupoun">
+                <p><i class="fa-solid fa-tag" style="color: #010101;"></i> Apply Coupouns</p> <button class="bc-red fc-red p5">Apply</button>
+
+            </div>
+            <div id="donate" class="m-10" style="border-bottom: 1px solid grey;padding-bottom: 15px;">
+                <span class="f-13">SUPPORT TRANSFORMATIVE SOCIAL WORK IN INDIA
+                </span>
+                <div>
+                    <input type="checkbox"> <b>Donate and make a differnece</b>
+                </div>
+                <div id="donate-buttons">
+                    <div class="price-button">10</div>
+                    <div class="price-button">20</div>
+                    <div class="price-button">30</div>
+                </div>
+
+                <span class="fc-red f-12" >Know More</span>
+            </div>
+
+            <div id="price-details" class="m-10">
+                <h5>PRICE DETAILS(1 ITEMS)</h5>
+                <div id="price-container">
+                    <div class="df-jc f-14 m-10">
+                        <span>Total MRP</span> <span>1499</span>
+                    </div>
+                    <div class="df-jc f-14 m-10">
+                        <span>Coupoun Discount</span> <span>-825</span>
+                    </div>
+                    <div class="df-jc f-14 m-10 ">
+                        <span>Platform fee</span> <span class="fc-red">Apply Coupoun</span>
+                    </div>
+                    <div class="df-jc f-14 m-10 " style="padding-bottom: 15px; border-bottom: 1px solid grey;">
+                        <span>Shipping Fee</span> <span>FREE</span>
+                    </div>
+                    <div class="df-jc f-14 m-10">
+                        <span><b> Total Amount</b></span> <span><b>674</b> </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="place-order">
+                <button id="order-button">PLACE ORDER</button>
+            </div>
+        </div>
     </div>
 
 
